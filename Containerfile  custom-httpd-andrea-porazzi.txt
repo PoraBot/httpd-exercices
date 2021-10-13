@@ -1,0 +1,4 @@
+FROM quay.io/porabot/httpd-andrea-porazzi:latest
+COPY index.html /var/www/html
+LABEL mainteiner="Andrea Porazzi"
+LABEL desccription="Immagine con html custom"
